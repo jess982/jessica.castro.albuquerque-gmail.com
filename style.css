@@ -1,0 +1,80 @@
+/* Estilos para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #9246f2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para o formulário de postagem */
+#post-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#post-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#post-form button {
+    background-color: #9246f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#post-form button:hover {
+    background-color: #9246f2;
+}
+
+/* Estilos para as postagens */
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.post textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.post button {
+    background-color: #9246f2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.post button:hover {
+    background-color: #9246f2;
+}
